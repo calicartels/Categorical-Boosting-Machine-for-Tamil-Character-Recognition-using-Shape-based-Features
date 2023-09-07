@@ -62,10 +62,12 @@ Code for the paper presented at the 7th International Conference on Computing, C
 
 ## Sample Visualization
 
- Sample Visualization of the Tamil letter “ஐ” : <br>
+ Sample Visualization of the Tamil letter “ஐ”: <br>
 ![Proposed Visualization](https://github.com/calicartels/Categorical-Boosting-Machine-for-Tamil-Character-Recognition-using-Shape-based-Features/blob/main/sample%20vis.png) <br>
 
- Example Visualization in real-time : <br>
+ Example Visualization in real-time: <br>
+<br>
+
 ![Real-time Visualization](https://github.com/calicartels/Categorical-Boosting-Machine-for-Tamil-Character-Recognition-using-Shape-based-Features/blob/main/in%20real%20time.png) <br>
 
 ## Results
