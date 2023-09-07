@@ -1,6 +1,6 @@
 # Categorical-Boosting-Machine-for-Tamil-Character-Recognition-using-Shape-based-Features
-Code for the paper presented at the 7th International Conference on Computing, Communication,  Control and Automation  (ICCUBEA-2023), Pune, India.
-!Presenter certificate(https://drive.google.com/file/d/1b9na883fqxGDrkjL0EMzbx4I-w3YdRNH/view?usp=sharing)
+Code for the paper presented at the 7th International Conference on Computing, Communication,  Control and Automation  (ICCUBEA-2023), Pune, India.<br>
+[Presenter certificate](https://drive.google.com/file/d/1b9na883fqxGDrkjL0EMzbx4I-w3YdRNH/view?usp=sharing)
 
 
 ## Table of Contents
@@ -25,8 +25,7 @@ Code for the paper presented at the 7th International Conference on Computing, C
 - Tamil is one of the oldest surviving languages of the world, which serves as an inspiration for various modern Indian scripts.
 - With 84.12 million native speakers, Tamil has the highest prevalence in India. A total of about 89.7 million people worldwide speak Tamil as their mother tongue.
 - Despite it being a predominant language, there has been insufficient focus on the development of OCR techniques specifically tailored for Tamil characters.
-- This paper focuses on introducing a new Optical Character Recognition-based handwritten character recognition methodology for identifying Tamil vowels and subsequently extending support to the entire alphabet 
-  base. 
+- This paper focuses on introducing a new Optical Character Recognition-based handwritten character recognition methodology for identifying Tamil vowels and subsequently extending support to the entire alphabet base. 
 - The effort focuses on establishing a novel Contour Handwritten Feature Recognition feature detection and classification of the features using prevalent Machine Learning models.
 
 ## Problem Statement
@@ -56,9 +55,9 @@ Code for the paper presented at the 7th International Conference on Computing, C
 - The Contour Handwritten Feature Recognition (CHFR) is employed to compute three primary features - length (ρ), angle (θ), and chord-to-arc-ratio (τ) - for each segmented arc of the Tamil vowel contour. These 
   features are combined into a 1 × 60-dimensional feature vector for each vowel.
 - The three primary features are explained as follows :
-- 1. The "length" (ρi) is the distance between the center point of a shape (centroid) and the end of each segment.
-- 2. The "angle" (θi) is the measurement of the angle formed between a straight line connecting the centroid and the middle point of the segment (chord ρi).
-- 3. The "smoothness" of the curve of each segment is measured by the "chord-to-arc-ratio" (τi) which calculates the ratio between the length (ρi) and the line connecting two subsequent points of interaction 
+ 1. The "length" (ρi) is the distance between the center point of a shape (centroid) and the end of each segment.
+ 2. The "angle" (θi) is the measurement of the angle formed between a straight line connecting the centroid and the middle point of the segment (chord ρi).
+ 3. The "smoothness" of the curve of each segment is measured by the "chord-to-arc-ratio" (τi) which calculates the ratio between the length (ρi) and the line connecting two subsequent points of interaction 
      between the contour and the length.
 
 ## Sample Visualization
